@@ -1,13 +1,13 @@
 //Deployment
 
-//To fetch all the users.
+//To fetch all the stud.
 Http Method : GET
 http://localhost:8080/jersey-spring-integration/stud
 Response JSON :
 [{"doj":"2022-01-21","dob":"2000-03-02","no":34,"name":"pooja"},{"doj":"2022-01-22","dob":"1999-05-23","no":36,"name":"Amruta"},{"doj":"2022-01-19","dob":"2003-01-24","no":100,"name":"Sudha"}]
 
 
-//Get specific user by no
+//Get specific stud by no
 Http Method : GET
 http://localhost:8080/jersey-spring-integration/students/stud/100
 Response : {"doj":"2022-01-19","dob":"2003-01-24","no":100,"name":"Sudha"}
