@@ -1,0 +1,14 @@
+//Descriptor-Less Deployment Configuration
+
+import javax.ws.rs.ApplicationPath;
+
+// Deployment of a JAX-RS application using @ApplicationPath with Servlet 3.0
+// Descriptor-less deployment
+import org.glassfish.jersey.server.ResourceConfig;
+
+@ApplicationPath("/api")
+public class JerseyServletContainerConfig extends ResourceConfig {
+    public JerseyServletContainerConfig() {
+        packages("com.java.jersey.resources");
+    }
+}
